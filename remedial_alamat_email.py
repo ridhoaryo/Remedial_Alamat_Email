@@ -1,5 +1,5 @@
 def username_valid(username):
-    if (username.isalpha() == True) or (username.isdigit() == True) or (username.isalnum() == True) or ('-' in username) or ('_' in username):
+    if ((username.isalpha() == True) or (username.isdigit() == True) or (username.isalnum() == True)) or (('-' in username) and ('_' in username)):
         return 1
     else:
         return 0
