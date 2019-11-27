@@ -5,7 +5,7 @@ def username_valid(username):
         return 0
 
 def hosting_valid(hosting):
-    if (hosting.isalpha() == True) or (hosting.isdigit == True) or (username.isalnum() == True):
+    if (hosting.isalpha() == True) or (hosting.isdigit() == True) or (username.isalnum() == True):
         return 1
     else:
         return 0
